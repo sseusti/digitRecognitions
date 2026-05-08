@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0"></script>
+</head>
+
+<body>
+
+    <h1>Draw a number</h1>
+
+    <p id="result">Loading...</p>
+
+    <button onclick="predictModel()">Predict</button>
+    <button onclick="erase()">Clear</button>
+
+    <br><br>
+
+    <canvas
+        id="canvas"
+        width="500"
+        height="500"
+        style="border:1px solid black;"
+    ></canvas>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
